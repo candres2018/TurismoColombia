@@ -4,28 +4,38 @@ import android.location.Location;
 import android.media.Image;
 import android.widget.ImageView;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class LugarT {
 
+    @SerializedName("sitios_turisticos")
+    @Expose
     private String sitios_turisticos;
+    @SerializedName("descripci_n")
+    @Expose
     private String descripci_n;
+    @SerializedName("ubicacion")
+    @Expose
     private String ubicacion;
-    private String localizacion;
-    private String imagen;
-    private String icono;
+    //private String localizacion;
+    //private String imagen;
+    //private String icono;
 
     public LugarT( String sitios_turisticos,
              String descripci_n,
-             String ubicacion,
-             String localizacion,
-             String imagen,
-             String icono){
+             String ubicacion)
+             //String localizacion,
+             //String imagen,
+             //String icono)
+    {
         super();
         this.sitios_turisticos=sitios_turisticos;
         this.descripci_n=descripci_n;
         this.ubicacion=ubicacion;
-        this.localizacion=localizacion;
-        this.imagen=imagen;
-        this.icono=icono;
+        //this.localizacion=localizacion;
+        //this.imagen=imagen;
+        //this.icono=icono;
     }
 
     public String getSitios_turisticos() {
@@ -51,7 +61,7 @@ public class LugarT {
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
-
+/*
     public String getLocalizacion() {
         return localizacion;
     }
@@ -75,4 +85,6 @@ public class LugarT {
     public void setIcono(String icono) {
         this.icono = icono;
     }
+
+ */
 }

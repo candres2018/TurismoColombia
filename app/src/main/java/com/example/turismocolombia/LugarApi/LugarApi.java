@@ -10,5 +10,5 @@ import retrofit2.http.Url;
 
 public interface LugarApi {
     @GET
-    Call<List<LugarT>> getLugarT(@Url String url);
+    Call<List<LugarT>> getLugarTList(@Url String url);
 }
