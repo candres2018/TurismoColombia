@@ -1,15 +1,16 @@
 package com.example.turismocolombia;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class pantalla_inicio extends AppCompatActivity {
+public class pantalla_inicio extends Activity {
 
     /** Estableciendo el tiempo de espera**/
-    private final int SPLASH_DISPLAY_LENGTH = 7000; //El tiempo de espera es alrededor de 3 segundos
+    private final int SPLASH_DISPLAY_LENGTH = 3500; //El tiempo de espera es alrededor de 3 segundos
     @Override
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);

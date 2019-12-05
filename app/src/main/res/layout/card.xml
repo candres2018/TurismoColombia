@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autoText="false"
-        android:background="#1189B4"
+        android:background="#B97201"
         android:text="TextView"
         android:textColor="#FAFFFFFF"
         android:textSize="25dp"
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:background="#87D4D8"
+        android:background="#D8CB87"
         android:text="TextView"
         android:textSize="15dp" />
 
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:background="#87D4D8"
+        android:background="@drawable/cardgradient"
         android:text="TextView"
         android:textSize="15dp" />
 
