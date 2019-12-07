@@ -1,10 +1,9 @@
 package com.example.turismocolombia;
 
-import android.content.Context;
 import android.os.Bundle;
 
 import com.bumptech.glide.Glide;
-import com.example.turismocolombia.Model.LugarT;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -23,20 +22,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-
 
 import android.view.Menu;
-import android.widget.ImageView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "UDENAR", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

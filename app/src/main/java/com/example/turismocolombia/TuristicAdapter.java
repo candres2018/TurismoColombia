@@ -14,8 +14,8 @@ import java.util.List;
 public class TuristicAdapter extends RecyclerView.Adapter<TuristicAdapter.LugartViewHolder> {
     List<LugarT> lugart;
 
-    public TuristicAdapter(List<LugarT> restaurante){
-        this.lugart = restaurante;
+    public TuristicAdapter(List<LugarT> lugart){
+        this.lugart = lugart;
     }
 
     @Override
